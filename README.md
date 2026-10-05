@@ -67,24 +67,6 @@ npm run dev
 ```
 - Web Application: [http://localhost:5173](http://localhost:5173)
 
----
 
-## 🧪 Running Pytest Test Suite
-```bash
-source backend/venv/bin/activate
-PYTHONPATH=backend pytest backend/tests
-```
 
----
 
-## 🐳 Docker Deployment
-```bash
-# Launch PostgreSQL, FastAPI backend, and React frontend
-docker-compose up --build
-```
-
----
-
-## 🔑 Demo Credentials
-- **User**: `traveler@example.com` / `securepassword123`
-- **Admin**: `admin@travel.com` / `adminpassword123`
